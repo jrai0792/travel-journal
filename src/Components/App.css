@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  background-color: #F55A5A;
+  padding: 20px;
+}
+
+.nav-title {
+  font-size: 30px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main-container {
+  display: flex;
+  padding: 20px;
+}
+
+.main-image {
+  padding: 20px;
+}
+.main-image > img {
+  width: 180px;
+  height: 200px;
+}
+
+.content {
+  padding: 10px;
+}
+
+.fa-location-dot {
+  color: red;
+  padding: 3px;
+}
